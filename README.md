@@ -40,14 +40,9 @@ Configurar la base de datos en .env:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=nombre_base
+DB_DATABASE=prueba1
 DB_USERNAME=usuario
-DB_PASSWORD=contraseña
-
-
-Generar la clave de la aplicación:
-
-php artisan key:generate
+DB_PASSWORD=
 
 
 Ejecutar migraciones:
